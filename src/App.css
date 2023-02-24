@@ -1,0 +1,18 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.vakje {
+  border: 2px solid black;
+
+}
+
+.rooster {
+  display: grid;
+  grid-template-columns: repeat(var(--hoogte), 60px);
+  grid-template-rows: repeat(var(--breedte), 60px);
+}
